@@ -1,5 +1,5 @@
-The implementation of “Fast, Flexible Models for Discovering Topic Correlation
-across Weakly Related Collections” (EMNLP 2015).
+The implementation of “[**Fast, Flexible Models for Discovering Topic Correlation
+across Weakly Related Collections**](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP179.pdf)” (EMNLP 2015).
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ Please refer to the README in each model folder for usage.
 In a corpus file, each line represents a document, which has words follow the
 collection_id, all separated by space.
 
-<collection_id> <word_id> <word_id> <word_id>...
+    <collection_id> <word_id> <word_id> <word_id>...
 
 All ids begin with 0.
 
@@ -22,11 +22,11 @@ All ids begin with 0.
 
 The vocabulary file is used by read.py, each line is a word:
 
-<word0>
-<word1>
-...
+    <word0>
+    <word1>
+    ...
 
-So <word0> has id = 0.
+So `<word0>` has id = 0.
 
 -----
 
