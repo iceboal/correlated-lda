@@ -1,6 +1,8 @@
 The implementation of “[**Fast, Flexible Models for Discovering Topic Correlation
 across Weakly Related Collections**](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP179.pdf)” (EMNLP 2015).
 
+Disclaimer: this research code is nasty, lack of proper design or comments. Use at your own risk :-)
+
 ## Prerequisites
 
 Cython, CythonGSL
@@ -44,6 +46,3 @@ If you use C-LDA/C-HDP for research purpose, please use the following citation:
       url       = {http://aclweb.org/anthology/D15-1179}
     }
 
------
-
-Disclaimer: this research code is nasty, lack of proper design or comments. Use at your own risk :-)
